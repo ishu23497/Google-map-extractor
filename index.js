@@ -9,8 +9,8 @@ require('dotenv').config();
 // BASE CONFIGURATION
 const CONFIG = {
     // searchQuery will be set at runtime
-    maxResults: 20,
-    batchSize: 20,
+    maxResults: 300,
+    batchSize: 300,
     headless: false,
     outputFile: 'google_maps_data.csv',
     pdfFile: 'google_maps_summary.pdf'
